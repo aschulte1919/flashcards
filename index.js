@@ -22,8 +22,8 @@ function generate_question() {
 }	
 function Random_word() {
 	var random_answer;
-	random_answer = Math.random(); 
-	random_answer = Math.round(random_answer);
+	random_answer = Math.random() * options.length; 
+	random_answer = Math.floor(random_answer);
 	random_answer = options[random_answer] ;
 	return random_answer;
 }
