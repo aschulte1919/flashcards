@@ -1,46 +1,46 @@
 var questions = [
     {
-	question: 'What is the answer to this first question?',
+	question: 'What is this food?',
+	options: ['Apple', 'Banana', 'Orange'],
+	answer: ['Apple'],
+    },
+    {
+	question: 'What is this food?',
+	options: ['Flatbread', 'Calzone', 'Pizza'],
+	answer: ['Pizza'],
+    },
+    {
+	question: 'What is this food?',
+	options: ['Gyro', 'Pear', 'Falafel'],
+	answer: ['Falafel'],
+    },
+    {
+	question: 'What is this food?',
+	options: ['Beet', 'Carrot', 'Ginger'],
+	answer: ['Carrot'],
+    },
+    {
+	question: 'What is this food?',
+	options: ['Borscht', 'This other choice', 'This yet another choice'],
+	answer: ['This choice'],
+    },
+    {
+	question: 'What is this food?',
 	options: ['This choice', 'This other choice', 'This yet another choice'],
 	answer: ['This choice'],
     },
     {
-	question: 'What is the answer to this second question?',
+	question: 'What is this food?',
 	options: ['This choice', 'This other choice', 'This yet another choice'],
 	answer: ['This choice'],
     },
     {
-	question: 'What is the answer to this third question?',
+	question: 'What is this food?',
 	options: ['This choice', 'This other choice', 'This yet another choice'],
 	answer: ['This choice'],
     },
     {
-	question: 'What is the answer to this fourth question?',
-	options: ['This choice', 'This other choice', 'This yet another choice'],
-	answer: ['This choice'],
-    },
-    {
-	question: 'What is the answer to this fifth question?',
-	options: ['This choice', 'This other choice', 'This yet another choice'],
-	answer: ['This choice'],
-    },
-    {
-	question: 'What is the answer to this sixth question?',
-	options: ['This choice', 'This other choice', 'This yet another choice'],
-	answer: ['This choice'],
-    },
-    {
-	question: 'What is the answer to this seventh question?',
-	options: ['This choice', 'This other choice', 'This yet another choice'],
-	answer: ['This choice'],
-    },
-    {
-	question: 'What is the answer to this eighth question?',
-	options: ['This choice', 'This other choice', 'This yet another choice'],
-	answer: ['This choice'],
-    },
-    {
-	question: 'What is the answer to this ninth question?',
+	question: 'What is this food?',
 	options: ['This choice', 'This other choice', 'This yet another choice'],
 	answer: ['This choice'],
     },

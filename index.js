@@ -16,5 +16,9 @@ function incorrect_answer() {
 var options =['Apple', 'Pizza', 'Carrot', 'Borscht', 'Ice Cream', 'Falafel', 'French Fries', 'Lutefisk', 'Beef Stroganoff', 'Cream Chesse', 'Biryani'] ;
 
 function generate_question()
-	document.getElementById('A').innerHTML = Math.round(Math.random) ;
+	var random_answer;
+	random_answer = Math.random(); 
+	random_answer = Math.round(random_answer);
+	random_answer = options[random_answer] ;
+	document.getElementById('A').innerHTML = random_answer; 
 	
