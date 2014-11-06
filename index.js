@@ -5,4 +5,13 @@ function correct_answer() {
 	document.getElementById('response').innerHTML = 'Correct' ;
 	}
 	document.getElementById('A').addEventListener('click', correct_answer) ;
+
+	function incorrect_answer() {
+	document.getElementById('response').innerHTML = 'Incorrect' ;
+	}
+	document.getElementById('B').addEventListener('click', incorrect_answer) ;
+	document.getElementById('C').addEventListener('click', incorrect_answer) ;
+	
+	
+	
 	var subtotal;
