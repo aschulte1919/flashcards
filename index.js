@@ -13,5 +13,6 @@ function correct_answer() {
 	document.getElementById('C').addEventListener('click', incorrect_answer) ;
 	
 	
+var options('Apple', 'Pizza', 'Carrot', 'Borscht', 'Ice Cream', 'Falafel', 'French Fries', 'Lutefisk', 'Beef Stroganoff', 'Cream Chesse', 'Biryani') ;
 	
-	var subtotal;
+	
