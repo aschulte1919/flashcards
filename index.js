@@ -5,14 +5,16 @@ function correct_answer() {
 	document.getElementById('response').innerHTML = 'Correct' ;
 	}
 	document.getElementById('A').addEventListener('click', correct_answer) ;
-
-	function incorrect_answer() {
+	
+function incorrect_answer() {
 	document.getElementById('response').innerHTML = 'Incorrect' ;
 	}
 	document.getElementById('B').addEventListener('click', incorrect_answer) ;
 	document.getElementById('C').addEventListener('click', incorrect_answer) ;
 	
 	
-var options('Apple', 'Pizza', 'Carrot', 'Borscht', 'Ice Cream', 'Falafel', 'French Fries', 'Lutefisk', 'Beef Stroganoff', 'Cream Chesse', 'Biryani') ;
-	
+var options =['Apple', 'Pizza', 'Carrot', 'Borscht', 'Ice Cream', 'Falafel', 'French Fries', 'Lutefisk', 'Beef Stroganoff', 'Cream Chesse', 'Biryani'] ;
+
+function generate_question()
+	document.getElementById('A').innerHTML = Math.round(Math.random) ;
 	
