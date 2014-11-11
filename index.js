@@ -22,7 +22,7 @@ function Random_image() {
 	var random_photo;
 	random_photo = Math.random() * image_options.length; 
 	random_photo = Math.floor(random_photo);
-	random_photo = options[random_photo] ;
+	random_photo = image_options[random_photo] ;
 	return random_photo;
 }
 
