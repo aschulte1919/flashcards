@@ -13,7 +13,7 @@ function incorrect_answer() {
 	
 	
 	
-var options =['Apple', 'Pizza', 'Carrot', 'Borscht', 'Ice Cream', 'Falafel', 'French Fries', 'Lutefisk', 'Beef Stroganoff', 'Cream Chesse', 'Biryani'] ;
+var options =['Apple', 'Pizza', 'Carrot', 'Borscht', 'Ice Cream', 'Falafel', 'French Fries', 'Lutefisk', 'Beef Stroganoff', 'Cream Cheese', 'Biryani'] ;
 
 function generate_question() {
 	document.getElementById('A').innerHTML = Random_word();
