@@ -9,7 +9,7 @@ function correct_answer() {
 function incorrect_answer() {
 	document.getElementById('response').innerHTML = 'Incorrect' ;
 	}
-	//document.getElementById('B').addEventListener('click', incorrect_answer) ;
+	document.getElementById('B').addEventListener('click', incorrect_answer) ;
 	
 	
 	
