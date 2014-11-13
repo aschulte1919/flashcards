@@ -29,7 +29,13 @@ function generate_question() {
 	document.getElementById('A').innerHTML = Random_word();
 	document.getElementById('B').innerHTML = Random_word();
 	document.getElementById('C').innerHTML = Random_word();
-	document.getElementById('thomas').src= Random_image();
+	//document.getElementById('thomas').src= Random_image();
+	document.getElementById('thomas').src= store_image();
+	var store_image;
+	var store_word;
+	var general_store = Random_image_key();
+	store_image = image_options[general_store];
+	store_word = options[general_store];
 }	
 function Random_word() {
 	var random_answer;
@@ -44,17 +50,6 @@ generate_question();
 
 var hold;
 
-function connect() {
-	var store;
-	store = Random_image_key();
-	store = image_options[random_photo];
-	store = options[];
-	
-	
-	var connection;
-	thomas.src = options[random_photo];
-	return connection;
 
-}
 	
 	
