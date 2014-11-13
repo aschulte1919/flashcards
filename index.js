@@ -26,16 +26,16 @@ function Random_image_key() {
 }
 
 function generate_question() {
-	document.getElementById('A').innerHTML = Random_word();
-	document.getElementById('B').innerHTML = Random_word();
-	document.getElementById('C').innerHTML = Random_word();
-	//document.getElementById('thomas').src= Random_image();
-	document.getElementById('thomas').src= store_image();
 	var store_image;
 	var store_word;
 	var general_store = Random_image_key();
 	store_image = image_options[general_store];
 	store_word = options[general_store];
+	document.getElementById('A').innerHTML = Random_word();
+	document.getElementById('B').innerHTML = Random_word();
+	document.getElementById('C').innerHTML = Random_word();
+	document.getElementById('thomas').src = store_image();
+	
 }	
 function Random_word() {
 	var random_answer;
