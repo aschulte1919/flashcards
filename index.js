@@ -31,10 +31,26 @@ function generate_question() {
 	var general_store = Random_image_key();
 	store_image = image_options[general_store];
 	store_word = options[general_store];
-	document.getElementById('A').innerHTML = Random_word();
+	var random_button;
+	var result;
+ 	random_button = Math.random();
+	 if (random_button <= .33333){
+  	document.getElementById('A').innerHTML = store_word;
 	document.getElementById('B').innerHTML = Random_word();
 	document.getElementById('C').innerHTML = Random_word();
-	document.getElementById('thomas').src = store_image();
+  		}
+  	if (random_button <= .33333*2){
+		document.getElementById('A').innerHTML = Random_word();
+		document.getElementById('B').innerHTML = store_word;
+		document.getElementById('C').innerHTML = Random_word();
+		}
+	if (random_button <= .33333*3){
+		document.getElementById('A').innerHTML = Random_word();
+		document.getElementById('B').innerHTML = Random_word();
+		document.getElementById('C').innerHTML = store_word;
+		}
+	
+	document.getElementById('thomas').src = store_image;
 	
 }	
 function Random_word() {
