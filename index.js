@@ -44,3 +44,11 @@ function Random_word() {
 generate_question();
 
 var hold;
+
+function connect() {
+	var connection;
+	connection = options[Random_image()];
+}
+	
+	
+	
