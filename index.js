@@ -37,24 +37,24 @@ function generate_question() {
   	document.getElementById('A').innerHTML = store_word;
 	document.getElementById('B').innerHTML = Random_word();
 	document.getElementById('C').innerHTML = Random_word();
-			document.getElementById('A').addEventListener('click', correct_answer) ;
-			document.getElementById('B').addEventListener('click', incorrect_answer) ;
-			document.getElementById('C').addEventListener('click', incorrect_answer) ;
+			document.getElementById('A').addEventListener('click', correct_answer()) ;
+			document.getElementById('B').addEventListener('click', incorrect_answer()) ;
+			document.getElementById('C').addEventListener('click', incorrect_answer()) ;
 }
   	else if (random_button <= .33333*2){
 		document.getElementById('A').innerHTML = Random_word();
 		document.getElementById('B').innerHTML = store_word;
 		document.getElementById('C').innerHTML = Random_word();
-			document.getElementById('B').addEventListener('click', correct_answer) ;
-			document.getElementById('A').addEventListener('click', incorrect_answer) ;
-			document.getElementById('C').addEventListener('click', incorrect_answer) ;
+			document.getElementById('B').addEventListener('click', correct_answer()) ;
+			document.getElementById('A').addEventListener('click', incorrect_answer()) ;
+			document.getElementById('C').addEventListener('click', incorrect_answer()) ;
 	else if (random_button <= .33333*3){
 		document.getElementById('A').innerHTML = Random_word();
 		document.getElementById('B').innerHTML = Random_word();
 		document.getElementById('C').innerHTML = store_word;
-			document.getElementById('C').addEventListener('click', correct_answer) ;
-			document.getElementById('A').addEventListener('click', incorrect_answer) ;
-			document.getElementById('B').addEventListener('click', incorrect_answer) ;
+			document.getElementById('C').addEventListener('click', correct_answer()) ;
+			document.getElementById('A').addEventListener('click', incorrect_answer()) ;
+			document.getElementById('B').addEventListener('click', incorrect_answer()) ;
 		}
 		
 	document.getElementById('thomas').src = store_image;
