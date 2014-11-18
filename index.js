@@ -38,6 +38,7 @@ function generate_question() {
         document.getElementById('A').removeEventListener('click', incorrect_answer);
         document.getElementById('B').removeEventListener('click', incorrect_answer);
         document.getElementById('C').removeEventListener('click', incorrect_answer);
+        document.getElementById('response').innerHTML = '';
     random_button = Math.random();
     if (random_button <= .33333) {
         document.getElementById('A').innerHTML = store_word;
