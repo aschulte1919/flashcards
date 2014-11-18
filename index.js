@@ -40,9 +40,9 @@ function generate_question() {
         document.getElementById('A').addEventListener('click', correct_answer);
         document.getElementById('B').addEventListener('click', incorrect_answer);
         document.getElementById('C').addEventListener('click', incorrect_answer);
-        document.getElementById('A').removeEventListener('click', correct_answer);
-        document.getElementById('B').removeEventListener('click', incorrect_answer);
-        document.getElementById('C').removeEventListener('click', incorrect_answer);
+        document.getElementById('A').removeEventListener('click', generate_question);
+        document.getElementById('B').removeEventListener('click', generate_question);
+        document.getElementById('C').removeEventListener('click', generate_question);
     } else if (random_button <= .33333 * 2) {
         document.getElementById('A').innerHTML = Random_word();
         document.getElementById('B').innerHTML = store_word;
@@ -50,9 +50,9 @@ function generate_question() {
         document.getElementById('B').addEventListener('click', correct_answer);
         document.getElementById('A').addEventListener('click', incorrect_answer);
         document.getElementById('C').addEventListener('click', incorrect_answer);
-        document.getElementById('B').removeEventListener('click', correct_answer);
-        document.getElementById('A').removeEventListener('click', incorrect_answer);
-        document.getElementById('C').removeEventListener('click', incorrect_answer);
+        document.getElementById('B').removeEventListener('click', generate_question);
+        document.getElementById('A').removeEventListener('click', generate_question);
+        document.getElementById('C').removeEventListener('click', generate_question);
     } else if (random_button <= .33333 * 3) {
         document.getElementById('A').innerHTML = Random_word();
         document.getElementById('B').innerHTML = Random_word();
@@ -60,9 +60,9 @@ function generate_question() {
         document.getElementById('C').addEventListener('click', correct_answer);
         document.getElementById('A').addEventListener('click', incorrect_answer);
         document.getElementById('B').addEventListener('click', incorrect_answer);
-        document.getElementById('C').removeEventListener('click', correct_answer);
-        document.getElementById('A').removeEventListener('click', incorrect_answer);
-        document.getElementById('B').removeEventListener('click', incorrect_answer);
+        document.getElementById('C').removeEventListener('click', generate_question);
+        document.getElementById('A').removeEventListener('click', generate_question);
+        document.getElementById('B').removeEventListener('click', generate_question);
     }
     document.getElementById('thomas').src = store_image;
 }
