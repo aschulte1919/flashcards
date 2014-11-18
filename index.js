@@ -3,11 +3,12 @@
 
 function correct_answer() {
     document.getElementById('response').innerHTML = 'Correct';
-    //generate_question();
+    generate_question();
 }
 
 function incorrect_answer() {
-    document.getElementById('response').innerHTML = 'Incorrect';
+    document.getElementById('response').innerHTML = 'Incorrect'; 
+    generate_question();
 }
 
 
@@ -66,6 +67,9 @@ function Random_word() {
     hold = random_answer
     return random_answer;
 }
+function counter()
+
+
 
 generate_question();
 
