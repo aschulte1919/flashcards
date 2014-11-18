@@ -39,20 +39,20 @@ function generate_question() {
 	document.getElementById('B').innerHTML = Random_word();
 	document.getElementById('C').innerHTML = Random_word();
   		}
-  	if (random_button <= .33333*2){
+  	else if (random_button <= .33333*2){
 		document.getElementById('A').innerHTML = Random_word();
 		document.getElementById('B').innerHTML = store_word;
 		document.getElementById('C').innerHTML = Random_word();
 		}
-	if (random_button <= .33333*3){
+	else if (random_button <= .33333*3){
 		document.getElementById('A').innerHTML = Random_word();
 		document.getElementById('B').innerHTML = Random_word();
 		document.getElementById('C').innerHTML = store_word;
 		}
-	
 	document.getElementById('thomas').src = store_image;
 	
-}	
+}
+	
 function Random_word() {
 	var random_answer;
 	random_answer = Math.random() * options.length; 
