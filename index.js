@@ -67,9 +67,6 @@ function Random_word() {
     hold = random_answer
     return random_answer;
 }
-function counter()
-
-
 
 generate_question();
 
