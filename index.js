@@ -16,11 +16,12 @@ function correct_answer() {
 }
 
 function incorrect_answer() {
-	var percent = Math.round(total_correct / total_count*100);
+
     document.getElementById('response').innerHTML = 'Incorrect'; 
     window.setTimeout(generate_question, 1000);
     total_count = total_count +1;
     total_correct = total_correct;
+    var percent = Math.round(total_correct / total_count*100);
    document.getElementById('terry').innerHTML = total_correct;
    document.getElementById('lee').innerHTML = total_count;
    document.getElementById('tod').innerHTML = percent;  
