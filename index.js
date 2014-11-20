@@ -12,8 +12,7 @@ function correct_answer() {
     total_count = total_count +1;
     document.getElementById('terry').innerHTML = total_correct;
     document.getElementById('lee').innerHTML = total_count;
-    document.getElementById('tod').innerHTML = total_correct / total_count*100;
-    Math.round('tod');
+    document.getElementById('tod').innerHTML = Math.round(total_correct / total_count*100);
 }
 
 function incorrect_answer() {
@@ -23,8 +22,7 @@ function incorrect_answer() {
     total_correct = total_correct;
    document.getElementById('terry').innerHTML = total_correct;
    document.getElementById('lee').innerHTML = total_count;
-   document.getElementById('tod').innerHTML = total_correct / total_count* 100;
-   Math.round('tod');
+   document.getElementById('tod').innerHTML = Math.round(total_correct / total_count*100);  
 }
    
    
