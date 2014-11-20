@@ -13,6 +13,7 @@ function correct_answer() {
     document.getElementById('terry').innerHTML = total_correct;
     document.getElementById('lee').innerHTML = total_count;
     document.getElementById('tod').innerHTML = total_correct / total_count*100;
+    Math.round('tod');
 }
 
 function incorrect_answer() {
@@ -23,6 +24,7 @@ function incorrect_answer() {
    document.getElementById('terry').innerHTML = total_correct;
    document.getElementById('lee').innerHTML = total_count;
    document.getElementById('tod').innerHTML = total_correct / total_count* 100;
+   Math.round('tod');
 }
    
    
