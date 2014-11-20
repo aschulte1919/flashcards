@@ -10,7 +10,7 @@ function correct_answer() {
     window.setTimeout(generate_question, 1000);
     total_correct = total_correct + 1;
     total_count = total_count +1;
-    document.getElementById('terry').innerHTML = total_count / total_correct;
+    document.getElementById('terry').innerHTML = total_correct / total_count;
 }
 
 function incorrect_answer() {
@@ -18,7 +18,7 @@ function incorrect_answer() {
     window.setTimeout(generate_question, 1000);
     total_count = total_count +1;
     total_correct = total_correct;
-   document.getElementById('terry').innerHTML = total_count / total_correct;
+   document.getElementById('terry').innerHTML = total_correct / total_count;
 }
 
 var options = ['Apple', 'Pizza', 'Carrot', 'Borscht', 'Ice Cream', 'Falafel', 'French Fries', 'Lutefisk', 'Beef Stroganoff', 'Cream Cheese', 'Biryani'];
