@@ -13,6 +13,21 @@ function correct_answer() {
     document.getElementById('terry').innerHTML = total_correct;
     document.getElementById('lee').innerHTML = total_count;
     document.getElementById('tod').innerHTML = Math.round(total_correct / total_count*100);
+    if (percent <= 89 && percent >= 80){
+  document.getElementById('matt').innerHTML = 'B'; 
+  }
+if (percent <= 100 && percent >= 90){
+  document.getElementById('matt').innerHTML = 'A'; 
+  }
+if (percent <= 79 && percent >= 70){
+  document.getElementById('matt').innerHTML = 'C'; 
+  }
+if (percent <= 69 && percent >= 60){
+  document.getElementById('matt').innerHTML = 'D'; 
+  }
+if (percent <= 59){
+  document.getElementById('matt').innerHTML = 'F'; 
+  }
 }
 
 function incorrect_answer() {
