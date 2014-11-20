@@ -10,9 +10,10 @@ function correct_answer() {
     window.setTimeout(generate_question, 1000);
     total_correct = total_correct + 1;
     total_count = total_count +1;
+   var percent = Math.round(total_correct / total_count*100);
     document.getElementById('terry').innerHTML = total_correct;
     document.getElementById('lee').innerHTML = total_count;
-    document.getElementById('tod').innerHTML = Math.round(total_correct / total_count*100);
+    document.getElementById('tod').innerHTML = percent;
     if (percent <= 89 && percent >= 80){
   document.getElementById('matt').innerHTML = 'B'; 
   }
