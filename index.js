@@ -30,13 +30,13 @@ if (percent < 90 && percent > 80){
 if (percent < 100 && percent > 90){
   document.getElementById('matt').innerHTML = 'A'; 
   }
-  if (percent < 80 && percent > 70){
+if (percent < 80 && percent > 70){
   document.getElementById('matt').innerHTML = 'C'; 
   }
-    if (percent < 70 && percent > 60){
+if (percent < 70 && percent > 60){
   document.getElementById('matt').innerHTML = 'D'; 
   }
-      if (percent < 60){
+if (percent < 60){
   document.getElementById('matt').innerHTML = 'F'; 
   }
 } 
