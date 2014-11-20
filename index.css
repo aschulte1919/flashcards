@@ -1,21 +1,22 @@
-body{
-	background-color: #F35;
-	color: #C4BBC3;
-	text-align: center;
-	font-size: 40pt;
-	font-weight: bold;
-	font-family: "Lucida Sans Unicode";
+@charset "UTF-8";
+body {
+  background-color:#F35;
+  color:#C4BBC3;
+  text-align:center;
+  font-size:40pt;
+  font-weight:bold;
+  font-family:"Lucida Sans Unicode";
 }
 
-img{
-	display: block;
-	height: 4em;
-	margin: auto;
-	border: 3px solid #C4BBC3;
+img {
+  display:block;
+  height:4em;
+  margin:auto;
+  border:3px solid #C4BBC3;
 }
 
-button{
-	 font-size:30px;
-	 color: #C4BBC3;
-	 background-color:#CCFF99;
-} 
+button {
+  font-size:30px;
+  color:#C4BBC3;
+  background-color:#CCFF99;
+}
